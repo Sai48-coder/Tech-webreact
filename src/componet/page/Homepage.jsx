@@ -1,19 +1,23 @@
-import { useProduct } from '../../context/ProductContext';
-import ProductCard from '../Card/ProductCard';
-import { ProductData } from '../data/Productdata';
-import Feature from '../home/Feature';
-import Herosection from '../home/Herosection';
+import { useProduct } from "../../context/ProductContext";
+import ProductCard from "../Card/ProductCard";
+import { ProductData } from "../data/ProductData";
+import Feature from "../home/Feature";
+import Herosection from "../home/Herosection";
 
 function Homepage() {
-  const { product } = useProduct(); 
+  const { product } = useProduct();
 
-  const flashsale = ProductData.filter((item)=>item.flashsale === true).slice(0,4);
-  const bestseller = ProductData.filter((item)=>item.bestseller === true).slice(0,4);
+  const flashsale = ProductData.filter((item) => item.flashsale === true).slice(
+    0,
+    4,
+  );
+  const bestseller = ProductData.filter(
+    (item) => item.bestseller === true,
+  ).slice(0, 4);
 
   return (
     <div>
       <Herosection />
-      
 
       {/* Flash Seller Section */}
       <div className="bg-[#5c5f65] py-8 px-4 mt-1">
@@ -39,14 +43,10 @@ function Homepage() {
         </div>
       </div>
 
-      
-
-      <div className='mt-1'>
-        <Feature/>
+      <div className="mt-1">
+        <Feature />
       </div>
-      
     </div>
-    
   );
 }
 

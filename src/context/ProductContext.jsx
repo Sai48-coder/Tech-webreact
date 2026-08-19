@@ -1,5 +1,5 @@
 import { createContext, useContext, useMemo, useState } from "react";
-import { ProductData } from "../componet/data/Productdata";
+import { ProductData } from "../componet/data/ProductData";
 
 export const ProductContext = createContext({});
 
