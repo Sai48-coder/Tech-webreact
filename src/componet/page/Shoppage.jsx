@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ProductData } from "../data/Productdata";
+import { ProductData } from "../data/ProductData";
 import ProductCard from '../Card/ProductCard';
 import Herortwo from '../home/Herortwo';
 
