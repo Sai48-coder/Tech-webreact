@@ -167,7 +167,7 @@ export const ProductData = [
     brand: "HP",
     category: "Laptop",
     img: [
-      "https://i.pinimg.com/736x/a2/4a/1c/a24a1c22a36b5860e6e76cfb1efbb5da.jpg",
+      "https://i.pinimg.com/736x/43/61/17/436117e6127896a24f69621217ce1fde.jpg",
       "https://i.pinimg.com/736x/43/61/17/436117e6127896a24f69621217ce1fde.jpg"
     ],
     description: "Sleek matte finish with Tempest Cooling and OMEN Gaming Hub optimization",
